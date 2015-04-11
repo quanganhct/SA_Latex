@@ -38,3 +38,11 @@ public Travel buildTravelNoServiceForOneClient(Client c, FlightTicketType type, 
 public Travel buildTravelNoServiceForGroup(Client c, FlightTicketType type, CityName destination)
 \end{lstlisting}
 
+When a client register a service, if there isn't any direct flight between the client's current city and the destination city, a transit flight will be added.  
+
+\paragraph{}
+For creating a travel with services, we could use
+
+\begin{lstlisting}
+
+\end{lstlisting}
