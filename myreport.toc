@@ -18,5 +18,5 @@
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {3.2}Abstract Factory}{4}
-\contentsline {subsection}{\numberline {3.3}Builder}{4}
+\contentsline {subsection}{\numberline {3.2}Abstract Factory}{5}
+\contentsline {subsection}{\numberline {3.3}Builder}{5}

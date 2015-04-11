@@ -26,9 +26,14 @@ public static TravelBuilder getInstance() {
 
 The constructor is set to private, so no other class can use this constructor to create new object of this class. Instead, we could call the static function \textit{getInstance} to get the only instance of TravelBuilder.
 
+\newpage
 \subsection{Abstract Factory}
 The Abstract Factory pattern is used, when there are many factories of related objects. In this case, FlightFactory, CityFactory, HotelFactory are the factories of Flight, City, Hotel. 
 
-
+\begin{figure}[h]
+\centering
+\includegraphics[width=12cm]{project/images/factory.png}
+\caption{Class diagram of DataAbstractFactory}
+\end{figure}
 
 \subsection{Builder}
