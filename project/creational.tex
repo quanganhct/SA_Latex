@@ -2,7 +2,7 @@
 \subsection{Singleton}
 
 \paragraph{}
-The Singleton pattern assure that the number of objects of the classes implementing this pattern are limited to one. The reason for this restriction is that, the object of this class would hold the global resource, and the creation of new object could be meaningless.
+Singleton pattern assure that the number of objects of the classes implementing this pattern are limited to one. The reason for this restriction is that, the object of this class would hold the global resource, and the creation of new object could be meaningless.
 
 \paragraph{}
 I have implemented this pattern in a lot of classes. Some of them are CityFactory, FlightFactory, CheapHotelStrategy, PoolTicketStrategy, TravelBuilder.
@@ -28,7 +28,7 @@ The constructor is set to private, so no other class can use this constructor to
 
 \newpage
 \subsection{Abstract Factory}
-The Abstract Factory pattern is used, when there are many factories of related objects. In this case, FlightFactory, CityFactory, HotelFactory are the factories of Flight, City, Hotel. 
+Abstract Factory pattern is used, when there are many factories of related objects. In this case, FlightFactory, CityFactory, HotelFactory are the factories of Flight, City, Hotel. 
 
 \begin{figure}[h]
 \centering
@@ -36,4 +36,37 @@ The Abstract Factory pattern is used, when there are many factories of related o
 \caption{Class diagram of DataAbstractFactory}
 \end{figure}
 
+\paragraph{}
+An example code of how to use these factories
+\begin{lstlisting}
+DataAbstractFactory f = CityFactory.getInstance();
+f.loadAllData();
+List<City> cities = f.getListCity();
+for (City c : cities) {
+	System.out.println(c.printCityDetail());
+}
+\end{lstlisting}
+
+\newpage
 \subsection{Builder}
+Builder pattern is used to construct an object, sometimes could have complex structure, and would be approached using step by step method. In this case, the most complicated structures are the reservation classes. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=12cm]{project/images/builder.png}
+\caption{Class diagram of the builders}
+\end{figure}
+
+\paragraph{}
+An example code showing the construction of a travel with touring service
+
+\begin{lstlisting}
+Client group = new GroupClient(list);
+Travel t = TravelBuilder.getInstance().buildTravelTouringService(group, CityName.Paris, FlightTicketType.VIP, HotelServiceType.Lux);
+
+TravelBuilder.getInstance().addNextTour((TravelTouringService) t, CityName.Bordeaux, FlightTicketType.Normal, HotelServiceType.Cheap);
+
+TravelBuilder.getInstance().addNextTour((TravelTouringService) t, CityName.Tokyo, FlightTicketType.VIP, HotelServiceType.Normal);
+\end{lstlisting}
+
+
