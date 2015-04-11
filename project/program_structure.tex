@@ -54,7 +54,7 @@ public Travel buildTravelTouringService(Client c, CityName destination, FlightTi
 public void addNextTour(TravelTouringService t, CityName destination, FlightTicketType f, HotelServiceType h)
 \end{lstlisting}
 
-The first one is for building the first 
+The first method is for building the first trip of the travel service. After that, anymore trip will be added using the second one. There's one problem in this setup, that's starting from the second trip, a trip to a new city must be a direct flight.
 
 
 
