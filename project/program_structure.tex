@@ -4,6 +4,16 @@
 Our project 's purpose is to help a travel agency make a booking for clients. There're two kinds of service package supported
 
 \begin{itemize}
-\item Travel without service: 
-\item Travel with services: 
+\item Travel without service: consist of only flight's reservation
+\item Travel with services: apart from flight's reservation, hotel's reservation and car renting could also be added
 \end{itemize}
+
+\paragraph{}
+There're three kinds of flight's reservation
+
+\begin{lstlisting}
+public enum FlightTicketType {
+	VIP, Normal, Pool
+}
+\end{lstlisting}
+The \textit{Pool} ticket is the type of ticket proposed to the travel agency by a flight agency
