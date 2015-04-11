@@ -30,3 +30,11 @@ public enum HotelServiceType {
 \end{lstlisting}
 
 \subsection{Software Usage}
+
+The creation of a Travel's object could be done using class \textit{TravelBuilder}. In this class, there're two methods that can create a travel without service
+
+\begin{lstlisting}
+public Travel buildTravelNoServiceForOneClient(Client c, FlightTicketType type, CityName destination)
+public Travel buildTravelNoServiceForGroup(Client c, FlightTicketType type, CityName destination)
+\end{lstlisting}
+
