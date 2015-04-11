@@ -1,5 +1,7 @@
 \section{PROGRAM 'S SPECIFICATION OVERVIEW}
 
+\subsection{Brief Introduction}
+
 \paragraph{}
 Our project 's purpose is to help a travel agency make a booking for clients. There're two kinds of service package supported
 
@@ -16,4 +18,15 @@ public enum FlightTicketType {
 	VIP, Normal, Pool
 }
 \end{lstlisting}
-The \textit{Pool} ticket is the type of ticket proposed to the travel agency by a flight agency
+The \textit{Pool} ticket is the type of ticket proposed to the travel agency by a flight agency. The only difference between \textit{Pool} and \textit{Normal} is that \textit{Pool}'s price is cheaper than the other.
+
+\paragraph{}
+There're also three kinds of hotel's reservation
+
+\begin{lstlisting}
+public enum HotelServiceType {
+	Cheap, Normal, Lux
+}
+\end{lstlisting}
+
+\subsection{Software Usage}
