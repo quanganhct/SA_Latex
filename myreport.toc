@@ -46,7 +46,5 @@
 \contentsline {paragraph}{}{17}
 \contentsline {subsection}{\numberline {6.5}Template}{19}
 \contentsline {paragraph}{}{19}
-\contentsline {section}{\numberline {7}Conclusion}{20}
-\contentsline {paragraph}{}{20}
-\contentsline {section}{\numberline {8}Future Scope}{20}
+\contentsline {section}{\numberline {7}CONCLUSION}{20}
 \contentsline {paragraph}{}{20}
