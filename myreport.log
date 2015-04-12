@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 21:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -636,25 +636,28 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <16> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 122.
 
-(./myreport.toc)
+(./myreport.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write3
 \openout3 = `myreport.toc'.
 
- [1] (./myreport.lof)
+ [1] [2] (./myreport.lof)
 \tf@lof=\write4
 \openout4 = `myreport.lof'.
 
- [2] (./project/introduction.tex
+ [3] (./project/introduction.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
-) [1
+)
+[1
 
-]
-(./project/program_structure.tex
+] (./project/program_structure.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
@@ -665,39 +668,54 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
  [2]) [3]
-(./project/project_request.tex (./project/class_diagram.tex) [4]
-(./project/collaboration.tex) (./project/sequence.tex) (./project/state.tex))
-(./project/creational.tex [5]
-<project/images/factory.png, id=38, 691.58376pt x 284.06125pt>
+(./project/project_request.tex (./project/class_diagram.tex
+<project/images/overview.png, id=35, 751.80875pt x 658.46pt>
+File: project/images/overview.png Graphic file (type png)
+
+<use project/images/overview.png>
+Package pdftex.def Info: project/images/overview.png used on input line 7.
+(pdftex.def)             Requested size: 341.43306pt x 299.04716pt.
+) [4 <./project/images/overview.png>]
+(./project/collaboration.tex
+<project/images/collaboration.png, id=41, 451.6875pt x 302.12875pt>
+File: project/images/collaboration.png Graphic file (type png)
+
+<use project/images/collaboration.png>
+Package pdftex.def Info: project/images/collaboration.png used on input line 5.
+
+(pdftex.def)             Requested size: 341.43306pt x 228.39394pt.
+) [5 <./project/images/collaboration.png>] (./project/sequence.tex) (./project/
+state.tex)) (./project/creational.tex
+[6] <project/images/factory.png, id=49, 691.58376pt x 284.06125pt>
 File: project/images/factory.png Graphic file (type png)
 
 <use project/images/factory.png>
 Package pdftex.def Info: project/images/factory.png used on input line 35.
 (pdftex.def)             Requested size: 341.43306pt x 140.24014pt.
- [6 <./project/images/factory.png>]
-<project/images/builder.png, id=44, 523.9575pt x 295.1025pt>
+ [7 <./project/images/factory.png>]
+<project/images/builder.png, id=54, 523.9575pt x 295.1025pt>
 File: project/images/builder.png Graphic file (type png)
 
 <use project/images/builder.png>
 Package pdftex.def Info: project/images/builder.png used on input line 56.
 (pdftex.def)             Requested size: 341.43306pt x 192.30515pt.
-) [7 <./project/images/builder.png>]
+) [8 <./project/images/builder.png>]
 (./project/structural.tex
-<project/images/proxy.png, id=49, 713.66624pt x 374.39874pt>
+<project/images/proxy.png, id=60, 713.66624pt x 374.39874pt>
 File: project/images/proxy.png Graphic file (type png)
 
 <use project/images/proxy.png>
 Package pdftex.def Info: project/images/proxy.png used on input line 16.
 (pdftex.def)             Requested size: 341.43306pt x 179.12093pt.
- [8 <./project/images/proxy.png>]
-<project/images/composite.png, id=54, 705.63625pt x 307.1475pt>
+ [9 <./project/images/proxy.png>]
+<project/images/composite.png, id=65, 705.63625pt x 307.1475pt>
 File: project/images/composite.png Graphic file (type png)
 
 <use project/images/composite.png>
 Package pdftex.def Info: project/images/composite.png used on input line 30.
 (pdftex.def)             Requested size: 341.43306pt x 148.61954pt.
- [9 <./project/images/composite.png>]
-<project/images/decorator.png, id=60, 800.9925pt x 389.455pt>
+ [10 <./project/images/composite.png>]
+<project/images/decorator.png, id=70, 800.9925pt x 389.455pt>
 File: project/images/decorator.png Graphic file (type png)
 
 <use project/images/decorator.png>
@@ -708,53 +726,53 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 48--49
  [][] 
  []
 
-) [10 <./project/images/decorator.png>] (./project/behavioral.tex
-<project/images/strategy.png, id=65, 641.39626pt x 236.885pt>
+) [11 <./project/images/decorator.png>] (./project/behavioral.tex
+<project/images/strategy.png, id=75, 641.39626pt x 236.885pt>
 File: project/images/strategy.png Graphic file (type png)
 
 <use project/images/strategy.png>
 Package pdftex.def Info: project/images/strategy.png used on input line 7.
 (pdftex.def)             Requested size: 341.43306pt x 126.10147pt.
- [11 <./project/images/strategy.png>]
-<project/images/observer.png, id=70, 739.76375pt x 315.1775pt>
+ [12 <./project/images/strategy.png>]
+<project/images/observer.png, id=80, 739.76375pt x 315.1775pt>
 File: project/images/observer.png Graphic file (type png)
 
 <use project/images/observer.png>
 Package pdftex.def Info: project/images/observer.png used on input line 40.
 (pdftex.def)             Requested size: 341.43306pt x 145.46913pt.
- [12 <./project/images/observer.png>]
-<project/images/iterator.png, id=75, 543.02875pt x 259.97125pt>
+ [13 <./project/images/observer.png>]
+<project/images/iterator.png, id=85, 543.02875pt x 259.97125pt>
 File: project/images/iterator.png Graphic file (type png)
 
 <use project/images/iterator.png>
 Package pdftex.def Info: project/images/iterator.png used on input line 63.
 (pdftex.def)             Requested size: 341.43306pt x 163.4654pt.
- [13 <./project/images/iterator.png>]
-<project/images/visitor.png, id=80, 512.91624pt x 351.3125pt>
+ [14 <./project/images/iterator.png>]
+<project/images/visitor.png, id=91, 512.91624pt x 351.3125pt>
 File: project/images/visitor.png Graphic file (type png)
 
 <use project/images/visitor.png>
 Package pdftex.def Info: project/images/visitor.png used on input line 90.
 (pdftex.def)             Requested size: 341.43306pt x 233.8611pt.
- [14 <./project/images/visitor.png>] [15]
-<project/images/template.png, id=89, 463.7325pt x 271.0125pt>
+ [15 <./project/images/visitor.png>] [16]
+<project/images/template.png, id=99, 463.7325pt x 271.0125pt>
 File: project/images/template.png Graphic file (type png)
 
 <use project/images/template.png>
 Package pdftex.def Info: project/images/template.png used on input line 134.
 (pdftex.def)             Requested size: 341.43306pt x 199.54121pt.
-) [16 <./project/images/template.png>]
-(./project/whodoeswhat.tex) (./project/conclusion.tex) [17] (./myreport.aux)
+) [17 <./project/images/template.png>]
+(./project/whodoeswhat.tex) (./project/conclusion.tex) [18] (./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6095 strings out of 493633
- 89261 string characters out of 3143378
+ 6106 strings out of 493633
+ 89581 string characters out of 3143378
  177077 words of memory out of 3000000
- 9238 multiletter control sequences out of 15000+200000
- 13457 words of font info for 40 fonts, out of 3000000 for 9000
+ 9248 multiletter control sequences out of 15000+200000
+ 13815 words of font info for 41 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  44i,12n,43p,488b,1121s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -765,10 +783,10 @@ e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on myreport.pdf (21 pages, 304568 bytes).
+Output written on myreport.pdf (23 pages, 362134 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
