@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 21:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,11 +643,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
+ [1])
 \tf@toc=\write3
 \openout3 = `myreport.toc'.
 
- [1] [2] (./myreport.lof)
+ [2] (./myreport.lof)
 \tf@lof=\write4
 \openout4 = `myreport.lof'.
 
@@ -790,7 +790,7 @@ e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on myreport.pdf (24 pages, 377022 bytes).
+Output written on myreport.pdf (24 pages, 377494 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
