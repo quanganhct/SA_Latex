@@ -13,32 +13,34 @@
 \contentsline {subsection}{\numberline {2.2}Software Usage}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{3}
-\contentsline {section}{\numberline {3}CREATIONAL PATTERNS}{4}
-\contentsline {subsection}{\numberline {3.1}Singleton}{4}
+\contentsline {section}{\numberline {3}PROJECT'S REQUEST}{4}
 \contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {3.2}Abstract Factory}{5}
+\contentsline {section}{\numberline {4}CREATIONAL PATTERNS}{5}
+\contentsline {subsection}{\numberline {4.1}Singleton}{5}
 \contentsline {paragraph}{}{5}
-\contentsline {subsection}{\numberline {3.3}Builder}{6}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {4.2}Abstract Factory}{6}
 \contentsline {paragraph}{}{6}
-\contentsline {section}{\numberline {4}STRUCTURAL PATTERNS}{7}
-\contentsline {subsection}{\numberline {4.1}Proxy}{7}
+\contentsline {subsection}{\numberline {4.3}Builder}{7}
 \contentsline {paragraph}{}{7}
-\contentsline {subsection}{\numberline {4.2}Composite}{8}
+\contentsline {section}{\numberline {5}STRUCTURAL PATTERNS}{8}
+\contentsline {subsection}{\numberline {5.1}Proxy}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {subsection}{\numberline {4.3}Decorator}{9}
+\contentsline {subsection}{\numberline {5.2}Composite}{9}
 \contentsline {paragraph}{}{9}
-\contentsline {section}{\numberline {5}BEHAVIORAL PATTERNS}{10}
-\contentsline {subsection}{\numberline {5.1}Strategy}{10}
+\contentsline {subsection}{\numberline {5.3}Decorator}{10}
 \contentsline {paragraph}{}{10}
-\contentsline {subsection}{\numberline {5.2}Observer}{11}
-\contentsline {subsection}{\numberline {5.3}Iterator}{12}
-\contentsline {subsection}{\numberline {5.4}Visitor}{13}
-\contentsline {paragraph}{}{13}
-\contentsline {subsection}{\numberline {5.5}Template}{15}
-\contentsline {paragraph}{}{15}
-\contentsline {section}{\numberline {6}Conclusion}{16}
+\contentsline {section}{\numberline {6}BEHAVIORAL PATTERNS}{11}
+\contentsline {subsection}{\numberline {6.1}Strategy}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {6.2}Observer}{12}
+\contentsline {subsection}{\numberline {6.3}Iterator}{13}
+\contentsline {subsection}{\numberline {6.4}Visitor}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {6.5}Template}{16}
 \contentsline {paragraph}{}{16}
-\contentsline {section}{\numberline {7}Future Scope}{16}
-\contentsline {paragraph}{}{16}
+\contentsline {section}{\numberline {7}Conclusion}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {section}{\numberline {8}Future Scope}{17}
+\contentsline {paragraph}{}{17}

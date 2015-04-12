@@ -1,11 +1,11 @@
 \thispagestyle {empty}
-\contentsline {figure}{\numberline {1}{\ignorespaces Class diagram of DataAbstractFactory\relax }}{5}
-\contentsline {figure}{\numberline {2}{\ignorespaces Class diagram of the builders\relax }}{6}
-\contentsline {figure}{\numberline {3}{\ignorespaces Class diagram of proxies\relax }}{7}
-\contentsline {figure}{\numberline {4}{\ignorespaces Class diagram of composite patterns\relax }}{8}
-\contentsline {figure}{\numberline {5}{\ignorespaces Class diagram of decorator patterns\relax }}{9}
-\contentsline {figure}{\numberline {6}{\ignorespaces Class diagram of strategies\relax }}{10}
-\contentsline {figure}{\numberline {7}{\ignorespaces Class diagram of strategies\relax }}{11}
-\contentsline {figure}{\numberline {8}{\ignorespaces Class diagram of iterator pattern\relax }}{12}
-\contentsline {figure}{\numberline {9}{\ignorespaces Class diagram of visitor pattern\relax }}{13}
-\contentsline {figure}{\numberline {10}{\ignorespaces Class diagram of template pattern\relax }}{15}
+\contentsline {figure}{\numberline {1}{\ignorespaces Class diagram of DataAbstractFactory\relax }}{6}
+\contentsline {figure}{\numberline {2}{\ignorespaces Class diagram of the builders\relax }}{7}
+\contentsline {figure}{\numberline {3}{\ignorespaces Class diagram of proxies\relax }}{8}
+\contentsline {figure}{\numberline {4}{\ignorespaces Class diagram of composite patterns\relax }}{9}
+\contentsline {figure}{\numberline {5}{\ignorespaces Class diagram of decorator patterns\relax }}{10}
+\contentsline {figure}{\numberline {6}{\ignorespaces Class diagram of strategies\relax }}{11}
+\contentsline {figure}{\numberline {7}{\ignorespaces Class diagram of strategies\relax }}{12}
+\contentsline {figure}{\numberline {8}{\ignorespaces Class diagram of iterator pattern\relax }}{13}
+\contentsline {figure}{\numberline {9}{\ignorespaces Class diagram of visitor pattern\relax }}{14}
+\contentsline {figure}{\numberline {10}{\ignorespaces Class diagram of template pattern\relax }}{16}
