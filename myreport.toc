@@ -27,5 +27,5 @@
 \contentsline {paragraph}{}{7}
 \contentsline {subsection}{\numberline {4.2}Composite}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {subsection}{\numberline {4.3}Decorator}{8}
-\contentsline {section}{\numberline {5}BEHAVIORAL PATTERNS}{9}
+\contentsline {subsection}{\numberline {4.3}Decorator}{9}
+\contentsline {section}{\numberline {5}BEHAVIORAL PATTERNS}{10}

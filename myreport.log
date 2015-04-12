@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 11:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,8 +697,8 @@ File: project/images/composite.png Graphic file (type png)
 <use project/images/composite.png>
 Package pdftex.def Info: project/images/composite.png used on input line 30.
 (pdftex.def)             Requested size: 341.43306pt x 148.61954pt.
-) [8 <./project/images/composite.png>]
-(./project/behavioral.tex) [9] (./myreport.aux)
+ [8 <./project/images/composite.png>])
+[9] (./project/behavioral.tex) [10] (./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -719,10 +719,10 @@ e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on myreport.pdf (12 pages, 193487 bytes).
+Output written on myreport.pdf (13 pages, 196264 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
