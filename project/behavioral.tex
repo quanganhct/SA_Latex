@@ -127,7 +127,7 @@ switch (f) {
 \newpage
 \subsection{Template}
 
-Template pattern define the way to run the operator in the class. In \textit{TravelWithService}, we have three methods that do the reservation: \textit{flightReserve}, \textit{hotelReserve} and \textit{carReserve}. We want that the reservation must follow the order: flight, hotel then car. 
+Template pattern defines the way to run the operator in the class. In \textit{TravelSimpleService} and \textit{TravelTouringService}, we have three methods that do the reservation: \textit{flightReserve}, \textit{hotelReserve} and \textit{carReserve}. We want that the reservation must follow the order: flight, hotel then car. 
 
 \begin{figure}[h]
 \centering
@@ -135,7 +135,23 @@ Template pattern define the way to run the operator in the class. In \textit{Tra
 \caption{Class diagram of template pattern}
 \end{figure}
 
+\paragraph{}
+In \textit{ServiceReservationTemplate}, only one method \textit{reserve} is implemented, this one method has defined the order of execution of the three reservations.
 
+\begin{lstlisting}
+
+public abstract class ServiceReservationTemplate {
+	public abstract void hotelReserve();
+	public abstract void carReserve();
+	public abstract void flightReserve();
+	public void reserve(){
+		flightReserve();
+		hotelReserve();
+		carReserve();
+	}
+}
+
+\end{lstlisting}
 
 
 
