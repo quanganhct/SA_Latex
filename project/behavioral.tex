@@ -56,8 +56,34 @@ public void secureVIPPlace() {
 
 \newpage
 \subsection{Iterator}
-Iterator pattern allow the definition of an object, call \textit{iterator}, which can traverse the element objects of a container. There are two composite classes which could consider as a container: \textit{Client} and \textit{Travel}
+Iterator pattern allow the definition of an object, call \textit{iterator}, which can traverse the element objects of a container. There are two composite classes which could consider as a container: \textit{Client} and \textit{TravelTouringService}. We choose \textit{TravelTouringService} to deploy the iterator pattern. 
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=12cm]{project/images/iterator.png}
+\caption{Class diagram of iterator pattern}
+\end{figure}
+
+I implemented \textit{TouringIterator} as the inner class of \textit{TravelTouringService}. With this arrangement, \textit{TouringIterator} could freely access to \textit{nextTour}, an attribute that was caching by \textit{TravelTouringService}. \textit{TouringIterator} will return \textit{currentTour} and process to \textit{nextTour} each times the method \textit{getNext} is called. 
+
+\begin{lstlisting}
+public Object getNext() {
+	if (hasNext()) {
+		if (firstTime) {
+			iter = current;
+			firstTime = false;
+		} else {
+			iter = (TravelTouringService) iter.nextTour;
+		}
+		return iter.firstTour;
+	}
+	return null;
+}
+\end{lstlisting}
+
+\newpage
 \subsection{Visitor}
+
+
 
 \subsection{Template}
