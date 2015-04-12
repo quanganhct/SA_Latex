@@ -1,0 +1,14 @@
+\subsection{Sequence diagram}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=12cm]{project/images/sequence.png}
+\caption{Collaboration diagram}
+\end{figure}
+
+Making a reservation of a touring service have several steps :
+\begin{itemize}
+\item Main class will make call to method \textit{buildTravelTouringService} of the class \textit{TravelBuilder}
+\item TravelBuilder call its own's method \textit{buildTravelSimpleService} 
+\item The method \textit{buildTravelSimpleService} create an instance of class \textit{TravelSimpleService}, and use this instance to make a function-call \textit{reserve}
+\end{itemize}
