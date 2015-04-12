@@ -22,3 +22,9 @@
 \contentsline {paragraph}{}{5}
 \contentsline {subsection}{\numberline {3.3}Builder}{6}
 \contentsline {paragraph}{}{6}
+\contentsline {section}{\numberline {4}STRUCTURAL PATTERNS}{7}
+\contentsline {subsection}{\numberline {4.1}Proxy}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {4.2}Composite}{7}
+\contentsline {subsection}{\numberline {4.3}Decorator}{7}
+\contentsline {section}{\numberline {5}BEHAVIORAL PATTERNS}{8}
