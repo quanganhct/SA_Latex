@@ -83,7 +83,64 @@ public Object getNext() {
 
 \newpage
 \subsection{Visitor}
+Visitor pattern permit the addition of operations into one object without altering the structure of its class. The travel with services consist of two kinds of services that have multi-type: flight reservation and hotel reservation. To keep track of each service's type, like how many VIP flight ticket that the client had booked, or how many hotel's luxury services that the client had ordered, a visitor is created to  manage these number. 
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=12cm]{project/images/visitor.png}
+\caption{Class diagram of visitor pattern}
+\end{figure}
 
+\paragraph{}
+At first, in \textit{TravelTouringService}, method \textit{accept} is where the visitor could start visit his targets.
 
+\begin{lstlisting}
+@Override
+public void accept(TouringServiceVisitor v) {
+	v.visit(firstTour);
+	if (nextTour != null)
+		nextTour.accept(v);
+}
+\end{lstlisting}
+
+\newpage
+Next, in the visitor class, \textit{CounterTypeTouringService}, in method \textit{visit}, the number of service's type is managed. For example, flight service's type.
+
+\begin{lstlisting}
+FlightTicketType f = travel.getFlightTicketType();
+switch (f) {
+	case Normal:
+		flightNormal++;
+		break;
+	case Pool:
+		flightNormal++;
+		break;
+	case VIP:
+		flightVip++;
+		break;
+	default:
+		break;
+}
+
+\end{lstlisting}
+
+\newpage
 \subsection{Template}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
