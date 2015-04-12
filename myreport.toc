@@ -25,6 +25,7 @@
 \contentsline {section}{\numberline {4}STRUCTURAL PATTERNS}{7}
 \contentsline {subsection}{\numberline {4.1}Proxy}{7}
 \contentsline {paragraph}{}{7}
-\contentsline {subsection}{\numberline {4.2}Composite}{7}
-\contentsline {subsection}{\numberline {4.3}Decorator}{7}
-\contentsline {section}{\numberline {5}BEHAVIORAL PATTERNS}{8}
+\contentsline {subsection}{\numberline {4.2}Composite}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsection}{\numberline {4.3}Decorator}{8}
+\contentsline {section}{\numberline {5}BEHAVIORAL PATTERNS}{9}
