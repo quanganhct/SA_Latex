@@ -33,6 +33,6 @@
 \contentsline {subsection}{\numberline {5.1}Strategy}{10}
 \contentsline {paragraph}{}{10}
 \contentsline {subsection}{\numberline {5.2}Observer}{11}
-\contentsline {subsection}{\numberline {5.3}Iterator}{11}
-\contentsline {subsection}{\numberline {5.4}Visitor}{11}
-\contentsline {subsection}{\numberline {5.5}Template}{11}
+\contentsline {subsection}{\numberline {5.3}Iterator}{12}
+\contentsline {subsection}{\numberline {5.4}Visitor}{12}
+\contentsline {subsection}{\numberline {5.5}Template}{12}

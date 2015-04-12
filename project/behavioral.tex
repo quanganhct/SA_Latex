@@ -1,6 +1,6 @@
 \section{BEHAVIORAL PATTERNS}
 \subsection{Strategy}
-Strategy pettern permit the definitions of many algorithms which served the same purpose. In this case, we used strategy patterns to define the way of calculating the price of the reservations. As mentioned in the previous section, we have implemented four decorators, two for flight reservation, two for hotel reservation. There're also four strategy classes corresponding to the decorators.
+Strategy pattern permit the definitions of many algorithms which served the same purpose. In this case, we used strategy patterns to define the way of calculating the price of the reservations. As mentioned in the previous section, we have implemented four decorators, two for flight reservation, two for hotel reservation. There're also four strategy classes corresponding to the decorators.
 
 \begin{figure}[h]
 \centering
@@ -33,8 +33,28 @@ public class LuxHotelStrategy implements HotelPriceStrategy {
 \end{lstlisting}
 
 \subsection{Observer}
+Observer pattern allow the objects, called observers, to be notified when there's a state change in the objects that were observed. In the context of this project, two observer classes were implemented to observe the number of available place in a flight and the number of free rooms in an hotel. Whenever these numbers reach zero, means that there are no more available space, the observers will display a message to notify the agent. 
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=12cm]{project/images/observer.png}
+\caption{Class diagram of strategies}
+\end{figure}
 
+To implement this pattern, interface \textit{Observable} and abstract class \textit{Observer} are created. The classes that need to be observed will implement \textit{Observable}. After that, they should decide when to notify the observers. Take an example of class \textit{Flight}, in the code below we demonstrate the situation when the VIP's place is running out
+
+\begin{lstlisting}
+public void secureVIPPlace() {
+	if (vipTickets >= 1) {
+		vipTickets--;
+		if (vipTickets == 0) {
+			notifyObservers(FlightTicketType.VIP);
+		}
+	}
+}
+\end{lstlisting}
+
+\newpage
 \subsection{Iterator}
 
 \subsection{Visitor}
