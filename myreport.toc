@@ -31,4 +31,8 @@
 \contentsline {paragraph}{}{9}
 \contentsline {section}{\numberline {5}BEHAVIORAL PATTERNS}{10}
 \contentsline {subsection}{\numberline {5.1}Strategy}{10}
-\contentsline {subsection}{\numberline {5.2}S}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsection}{\numberline {5.2}Observer}{11}
+\contentsline {subsection}{\numberline {5.3}Iterator}{11}
+\contentsline {subsection}{\numberline {5.4}Visitor}{11}
+\contentsline {subsection}{\numberline {5.5}Template}{11}
