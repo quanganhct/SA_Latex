@@ -43,7 +43,26 @@ Decorator is used to alter a behavior of the instances of a class, without chang
 \item \textit{HotelCheapDecorator, HotelLuxDecorator}
 \end{itemize}
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=15cm]{project/images/decorator.png}
+\caption{Class diagram of decorator patterns}
+\end{figure}
 
+\paragraph{}
+The only different behavior between those decorators is the way they calculate the price of a service that they defined. More accurately, this different is taken care of due to the change of the strategy object that the abstract decorator hold onto. 
+
+\begin{lstlisting}
+public HotelCheapDecorator(HotelReservationImpl h) {
+	this.reservation = h;
+	this.strategy = CheapHotelStrategy.getInstance();
+}
+
+public HotelLuxDecorator(HotelReservationInterface h) {
+	this.reservation = h;
+	this.strategy = LuxHotelStrategy.getInstance();
+}
+\end{lstlisting}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 12:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 APR 2015 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,17 +697,29 @@ File: project/images/composite.png Graphic file (type png)
 <use project/images/composite.png>
 Package pdftex.def Info: project/images/composite.png used on input line 30.
 (pdftex.def)             Requested size: 341.43306pt x 148.61954pt.
- [8 <./project/images/composite.png>])
-[9] (./project/behavioral.tex) [10] (./myreport.aux)
+ [8 <./project/images/composite.png>]
+<project/images/decorator.png, id=53, 800.9925pt x 389.455pt>
+File: project/images/decorator.png Graphic file (type png)
+
+<use project/images/decorator.png>
+Package pdftex.def Info: project/images/decorator.png used on input line 48.
+(pdftex.def)             Requested size: 426.79134pt x 207.51549pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 48--49
+ [][] 
+ []
+
+) [9 <./project/images/decorator.png>] (./project/behavioral.tex) [10]
+(./myreport.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6010 strings out of 493633
- 87454 string characters out of 3143378
+ 6023 strings out of 493633
+ 87772 string characters out of 3143378
  176077 words of memory out of 3000000
- 9180 multiletter control sequences out of 15000+200000
+ 9192 multiletter control sequences out of 15000+200000
  13815 words of font info for 41 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  44i,12n,43p,447b,1121s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -719,10 +731,10 @@ e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on myreport.pdf (13 pages, 196258 bytes).
+Output written on myreport.pdf (13 pages, 222388 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
